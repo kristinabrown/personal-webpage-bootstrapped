@@ -27,9 +27,9 @@ body {
 #content {
   color: #4e2057;
   float: right;
-  border: 2px dashed #4e2057;
+  border: 3px dotted #4e2057;
   padding: 10px;
-  left: 350px
+  width: 340px;
 }
 
 h2 {
@@ -58,7 +58,8 @@ h2 {
 
 #six {
   padding: 15px;
-  background-color: #65567a
+  background-color: #65567a;
+  border-bottom: 15px dashed;
 }
 
 .to-top {
@@ -77,7 +78,7 @@ a {
 #milli-slides {
   position: absolute;
   top: 300px;
-  right: 250px;
+  right: 150px;
   border: dashed #d445b0;
 }
 
