@@ -1,0 +1,85 @@
+body {
+  padding: 15px;
+  font-family: sans-serif;
+}
+
+#header {
+  background-color: #e2dde7;
+  padding: 30px;
+  right: 300px;
+  border-top: 15px dashed;
+  
+}
+#main-header {
+  font-size: 400%;
+  font-family: monospace;
+}
+
+.links {
+  color: #1e1262
+}
+
+.links:hover {
+  background-color: #7754df;
+  color: #cae77a;
+}
+
+#content {
+  color: #4e2057;
+  float: right;
+  border: 2px dashed #4e2057;
+  padding: 10px;
+  left: 350px
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+#one {
+  padding: 15px;
+  background-color: #dacedc;
+}
+
+#two {
+  padding: 15px;
+  background-color: #a695af
+}
+
+#three {
+  padding: 15px;
+  background-color: #9c79a9
+}
+
+#four-five {
+  padding: 15px;
+  background-color: #664a79
+}
+
+#six {
+  padding: 15px;
+  background-color: #5a4d68
+}
+
+.to-top {
+  float: right;
+}
+
+a {
+  color: #f6f2f7;
+  text-decoration: none;
+  
+}
+
+.project {
+  text-decoration: underline;
+}
+
+#milli-slides {
+  position: absolute;
+  top: 300px;
+  right: 250px;
+  border: dashed #d445b0;
+  
+}
+
