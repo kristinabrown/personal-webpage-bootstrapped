@@ -80,6 +80,7 @@ a {
 
 .project {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .project:hover {
