@@ -92,5 +92,6 @@ a {
   position: absolute;
   top: 330px;
   right: 150px;
-  border: dashed #d445b0;
+  border: 5px double #441256;
+  padding: 3px
 }
