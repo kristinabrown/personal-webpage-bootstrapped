@@ -12,9 +12,9 @@ strong {
   background-color: #e2dde7;
   padding: 30px;
   right: 300px;
-  border-top: 15px dashed;
-  
+  border-top: 15px dashed;  
 }
+
 #main-header {
   font-size: 400%;
   font-family: monospace;
@@ -92,5 +92,6 @@ a {
   position: absolute;
   top: 330px;
   right: 150px;
-  border: dashed #d445b0;
+  border: 5px double #441256;
+  padding: 3px
 }
