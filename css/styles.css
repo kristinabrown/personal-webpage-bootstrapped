@@ -58,7 +58,7 @@ h2 {
 
 #six {
   padding: 15px;
-  background-color: #5a4d68
+  background-color: #65567a
 }
 
 .to-top {
@@ -68,7 +68,6 @@ h2 {
 a {
   color: #f6f2f7;
   text-decoration: none;
-  
 }
 
 .project {
@@ -80,6 +79,5 @@ a {
   top: 300px;
   right: 250px;
   border: dashed #d445b0;
-  
 }
 
