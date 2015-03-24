@@ -1,38 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8"
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BBC presentation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link href="css/styles.css" type="text/css" rel="stylesheet"/>
+
   </head>
+  
   <body>
-    <div id="header">
-    <h1 id="main-header"> Turing: Module 1</h1>
-    <p id="content"><strong>Content</strong><br>
-      <a class="links" href=#week-one> Week 1,</a>
-      <a class="links" href=#week-two> Week 2,</a>
-      <a class="links" href=#week-three> Week 3,</a>
-      <a class="links" href=#week-four-five> Week 4 & 5,</a>
-      <a class="links" href=#week-six> Week 6</a>
-    </p>
-  </div>
-      
-    <div id="one">
-    <h2 id="week-one">Week 1</h2>
-      <ul>
-        <li>Ruby Basics</li>
-        <li>Psuedo Coding</li>
-        <li>Object Oriented Programming</li>
-        <li>Git</li>
-      </ul>
+    <div class="container">
+    <h1 class="jumbotron" id="header">Turing: Module 1<br><small>A look into Kristina's first six weeks at Turing</small></h1>
+    <ul class="nav nav-pills">
+      <li><a class="links" href=#week-one> Week One</a></li>
+      <li><a class="links" href=#week-two> Week Two</a></li>
+      <li><a class="links" href=#week-three> Week Three</a></li>
+      <li><a class="links" href=#week-four-five> Week Four & Five</a></li>
+      <li><a class="links" href=#week-six> Week Six</a></li>
+    </ul>
+
+  <div class="row" id="one">
+    <div class="col-md-4">
+      <h2 id="week-one">Week One</h2>
+      <p class="lead">Team building and learning ruby basics.</p>
+        <ul>
+          <li>Ruby Basics</li>
+          <li>Psuedo Coding</li>
+          <li>Object Oriented Programming</li>
+          <li>Git</li>
+        </ul>
     </div>
-      
-    <div id="two">
-    <h2 id="week-two">Week 2</h2>
-      <ul>
-        <li>Enumerables</li>
-        <li>Pairing</li>
-        <li>Projects:</li>
+    <div class="col-md-8">
+      <iframe class="img-round" id="milli-slides" src="https://www.flickr.com/photos/millicentpenelope/16545700550/in/photostream/player/" width=550px height=350px frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
+  </div>
+  
+  <div class="row" id="two">
+    <div class="col-md-4">
+      <h2 id="week-two">Week Two</h2>
+      <p class="lead">Practicing using enumbals and pairing techniques.</p>
+        <ul>
+          <li>Enumerables</li>
+          <li>Pairing</li>
+          <li>Projects:</li>
           <ul>
             <li>Bubble Sort</li>
             <li><a class="project" href="https://github.com/kristinabrown/chisel" target="_blank">Chisel: markdown parser</a></li>
@@ -40,38 +52,67 @@
           </ul>
       </ul>
     </div>
-      
-    <div id="three">
-    <h2 id="week-three">Week 3</h2>
+    <div class="col-md-4">
+      <img class="img-rounded" src="img/chisel.png" alt="chisel code" width=350px height=400px/>
+    </div>
+    <div class="col-md-4">
+      <img class="img-rounded" src="img/linkedlist.png" alt="linked list code" width=350px/>
+    </div>
+  </div>
+  
+  <div class="row" id="three">
+    <div class="col-md-4">
+      <h2 id="week-three">Week Three</h2>
+      <p class="lead">Applying encapsulation and single responsibility.</p>
       <ul>
         <li>Encapsulation</li>
         <li><a class="project" href="https://github.com/kristinabrown/mastermind" target="_blank">Mastermind</a></li>
       </ul>
     </div>
-    
-    <div id="four-five">
-    <h2 id="week-four-five">Week 4 and 5</h2>
-      <ul>
-        <li><a class="project" href="https://github.com/chelseaworrel/sales_engine" target="_blank">Sales Engine</a></li>
-      </ul>
-      <p class="to-top"><a href=#main-header>back to top</a></p>
+    <div class="col-md-8">
+      <img class="img-rounded" src="img/mastermind.png" alt="mastermind play" width=750px/>
     </div>
-
-    <div id="six">
-    <h2 id="week-six">Week 6</h2>
-      <ul>
-        <li><a class="project" href="https://github.com/kristinabrown/robodoku" target="_blank">Robodoku</a></li>
-        <li>Final Assessment</li>
+  </div>
+  
+  <div class="row" id="four-five">
+    <div class="col-md-4">
+      <h2 id="week-four-five">Week Four and Five</h2>
+      <p class="lead">Opening and reading files. And the infamous <em>Sales Engine.</em></p>
         <ul>
-          <li>Ruby Stynax: easily implements solutions</li>
-          <li>Ruby Style: code easy to follow</li>
-          <li>Blocks and Enumerations: understands blocks and effectively uses enumerations</li>
-          <li>Testing: TDD</li>
-          <li>Workflow: comfortable with tools and keyboard shortcuts</li>
-          <li>Collaboration: thinks before coding and integrates feedback</li>
-        </ul>  
-      </ul>
+          <li><a class="project" href="https://github.com/chelseaworrel/sales_engine" target="_blank">Sales Engine</a></li>
+        </ul>
     </div>
-    <iframe id="milli-slides" src="https://www.flickr.com/photos/millicentpenelope/16545700550/in/photostream/player/" width=250px height=450px frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    <div class="col-md-8">
+      <img class="img-rounded" src="img/salesengine.png" alt="sales engine code" width=750px/>
+    </div>
+  </div>
+  
+  <div class="row" id="six">
+    <div class="col-md-4">
+      <h2 id="week-six">Week Six</h2>
+      <p class="lead">Attempt the Sodoku solver and personal assessments.</p>
+        <ul>
+          <li><a class="project" href="https://github.com/kristinabrown/robodoku" target="_blank">Robodoku</a></li>
+          <li>Final Assessment</li>
+          <ul>
+            <li>Ruby Stynax: easily implements solutions</li>
+            <li>Ruby Style: code easy to follow</li>
+            <li>Blocks and Enumerations: understands blocks and effectively uses enumerations</li>
+            <li>Testing: TDD</li>
+            <li>Workflow: comfortable with tools and keyboard shortcuts</li>
+            <li>Collaboration: thinks before coding and integrates feedback</li>
+          </ul>  
+        </ul>
+      <p class="to-top"><a href=#header>back to top</a></p>
+    </div>
+    <div class="col-md-8">
+      <img class="img-rounded" src="img/robodoku.png" alt="robodoku code" width=750px/>
+    </div>
+  </div>  
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </div>
   </body>
 </html>
